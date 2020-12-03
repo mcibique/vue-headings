@@ -1,0 +1,8 @@
+coverage
+tests
+src/**/*.spec.js
+src/**/*.snap
+
+.editorconfig
+.eslintrc.js
+jest.config.js

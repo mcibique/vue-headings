@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentSection component should render as the given tag 1`] = `<main />`;
+
+exports[`DocumentSection component should render properly 1`] = `<section />`;
+
+exports[`DocumentSection component should render the default slot 1`] = `
+<section>
+  <span>
+    Random text
+  </span>
+</section>
+`;
