@@ -1,5 +1,8 @@
 # Vue headings
 
+[![npm version](https://badgen.net/npm/v/vue-headings)](https://www.npmjs.com/package/vue-headings)
+[![minzipped size](https://badgen.net/bundlephobia/minzip/vue-headings)](https://bundlephobia.com/result?p=vue-headings)
+
 Automated heading ranks for HTML document outline using vue.js. Contains 2 components that will automatically generate proper `<h1>`-`<h6>` elements based on the section structure of your HTML document.
 
 Each `document-heading` inside of root `document-section` will become `h1`. If you nest two `document-section` components, each `document-heading` inside will become `<h2>`, etc.
