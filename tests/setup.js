@@ -1,3 +1,4 @@
-import "@testing-library/jest-dom";
+import Vue from "vue";
 
-require("snapshot-diff/extend-expect");
+Vue.config.devtools = false;
+Vue.config.productionTip = false;

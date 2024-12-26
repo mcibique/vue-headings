@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`DocumentHeading component should follow custom level on section 1`] = `
+exports[`DocumentHeading component > should follow custom level on section 1`] = `
 <section>
   <section>
     <h4>
@@ -10,7 +10,7 @@ exports[`DocumentHeading component should follow custom level on section 1`] = `
 </section>
 `;
 
-exports[`DocumentHeading component should ignore section if level prop is a number 1`] = `
+exports[`DocumentHeading component > should ignore section if level prop is a number 1`] = `
 <section>
   <section>
     <h4>
@@ -20,19 +20,19 @@ exports[`DocumentHeading component should ignore section if level prop is a numb
 </section>
 `;
 
-exports[`DocumentHeading component should not allow heading bigger than 6 1`] = `
+exports[`DocumentHeading component > should not allow heading bigger than 6 1`] = `
 <h6>
   Heading level 6
 </h6>
 `;
 
-exports[`DocumentHeading component should not allow heading lower than 1 1`] = `
+exports[`DocumentHeading component > should not allow heading lower than 1 1`] = `
 <h1>
   Heading level 1
 </h1>
 `;
 
-exports[`DocumentHeading component should not allow section bigger than 6 1`] = `
+exports[`DocumentHeading component > should not allow section bigger than 6 1`] = `
 <section>
   <section>
     <h6>
@@ -42,7 +42,7 @@ exports[`DocumentHeading component should not allow section bigger than 6 1`] = 
 </section>
 `;
 
-exports[`DocumentHeading component should not allow section lower than 1 1`] = `
+exports[`DocumentHeading component > should not allow section lower than 1 1`] = `
 <section>
   <section>
     <h1>
@@ -52,7 +52,7 @@ exports[`DocumentHeading component should not allow section lower than 1 1`] = `
 </section>
 `;
 
-exports[`DocumentHeading component should render inside of a section 1`] = `
+exports[`DocumentHeading component > should render inside of a section 1`] = `
 <section>
   <h1>
     Heading level 1
@@ -60,7 +60,7 @@ exports[`DocumentHeading component should render inside of a section 1`] = `
 </section>
 `;
 
-exports[`DocumentHeading component should render inside of nested sections 1`] = `
+exports[`DocumentHeading component > should render inside of nested sections 1`] = `
 <section>
   <section>
     <h2>
@@ -70,9 +70,9 @@ exports[`DocumentHeading component should render inside of nested sections 1`] =
 </section>
 `;
 
-exports[`DocumentHeading component should render properly 1`] = `<h1 />`;
+exports[`DocumentHeading component > should render properly 1`] = `<h1 />`;
 
-exports[`DocumentHeading component should render relative levels 1`] = `
+exports[`DocumentHeading component > should render relative levels 1`] = `
 <section>
   <h1>
     Heading level 1
@@ -96,7 +96,7 @@ exports[`DocumentHeading component should render relative levels 1`] = `
 </section>
 `;
 
-exports[`DocumentHeading component should render relative levels of sections 1`] = `
+exports[`DocumentHeading component > should render relative levels of sections 1`] = `
 <section>
   <h1>
     Heading level 1
@@ -120,13 +120,13 @@ exports[`DocumentHeading component should render relative levels of sections 1`]
 </section>
 `;
 
-exports[`DocumentHeading component should render relative root heading 1`] = `
+exports[`DocumentHeading component > should render relative root heading 1`] = `
 <h3>
   Heading level 1+2=3
 </h3>
 `;
 
-exports[`DocumentHeading component should render relative root sections 1`] = `
+exports[`DocumentHeading component > should render relative root sections 1`] = `
 <section>
   <h3>
     Heading level 1+2=3
@@ -134,7 +134,7 @@ exports[`DocumentHeading component should render relative root sections 1`] = `
 </section>
 `;
 
-exports[`DocumentHeading component should render the given slot 1`] = `
+exports[`DocumentHeading component > should render the given slot 1`] = `
 <h1>
   <span>
     Random heading text
@@ -142,4 +142,4 @@ exports[`DocumentHeading component should render the given slot 1`] = `
 </h1>
 `;
 
-exports[`DocumentHeading component should render with given level prop 1`] = `<h3 />`;
+exports[`DocumentHeading component > should render with given level prop 1`] = `<h3 />`;

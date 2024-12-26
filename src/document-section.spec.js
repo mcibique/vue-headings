@@ -1,6 +1,7 @@
 /* eslint-env node, jest */
 
 import { mount } from "@vue/test-utils";
+import { describe, it, expect } from "vitest";
 import DocumentSection from "./document-section.vue";
 
 describe("DocumentSection component", function () {

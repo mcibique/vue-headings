@@ -1,6 +1,7 @@
 /* eslint-env node, jest */
 
 import { mount, createLocalVue } from "@vue/test-utils";
+import { describe, it, expect } from "vitest";
 import DocumentHeading from "./document-heading.vue";
 import DocumentSection from "./document-section.vue";
 
